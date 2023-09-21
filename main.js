@@ -16,5 +16,6 @@ btnMinify.addEventListener("click", ()=>{
 
 btnCopy.addEventListener("click",()=>{
     navigator.clipboard.writeText(`${outputArea.value}`);
+    alert("Result is copied to clipboard");
 })
 
